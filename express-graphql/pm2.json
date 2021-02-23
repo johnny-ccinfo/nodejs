@@ -1,0 +1,11 @@
+{
+    "apps": [
+        {
+            "name": "nodejs/express-grapql",
+            "script": "./server.js",
+            "exec_mode": "cluster",
+            "instances": "max",
+            "merge_logs": true
+        }
+    ]
+}
